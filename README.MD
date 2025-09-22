@@ -2,12 +2,6 @@
 
 Este projeto representa a arquitetura de um sistema que processa requisições de clientes, simula serviços da AWS, orquestra componentes via containers, coleta métricas da API e exibe dashboards interativos.
 
-## 📊 Diagrama do Sistema
-
-![Diagrama do sistema](diagram/diagrama-integracao-servicos.png)
-
-> **Legenda:** Docker executa o serviço que exibe visualmente os dados.
-
 ## 🧩 Componentes do Sistema
 
 - **Cliente que faz requisições**  
@@ -37,9 +31,3 @@ Este projeto representa a arquitetura de um sistema que processa requisições d
 - **Coletor de Métricas** – monitoramento da API
 - **Dashboard** – visualização dos dados
 
-## 🚀 Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
-   cd seu-projeto
